@@ -1,0 +1,1 @@
+package edu.uao.yugioh.model; public abstract class Carta { private final String nombre; protected Carta(String nombre){if(nombre==null||nombre.isBlank())throw new IllegalArgumentException("El nombre es obligatorio");this.nombre=nombre;} public final String getNombre(){return nombre;} public abstract String descripcion(); }

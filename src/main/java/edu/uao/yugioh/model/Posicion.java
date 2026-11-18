@@ -1,0 +1,1 @@
+package edu.uao.yugioh.model; public enum Posicion { ATAQUE, DEFENSA }

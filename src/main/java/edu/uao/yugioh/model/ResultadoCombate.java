@@ -1,0 +1,1 @@
+package edu.uao.yugioh.model; public record ResultadoCombate(String atacante,String defensor,int dano,String resultado) { @Override public String toString(){return atacante+" -> "+defensor+" | Daño: "+dano+" | "+resultado;} }
