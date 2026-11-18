@@ -1,0 +1,6 @@
+target/
+build/
+*.class
+*.zip
+.nb-gradle/
+.DS_Store
